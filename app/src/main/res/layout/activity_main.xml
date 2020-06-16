@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="187dp"
+
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="491dp"
+        android:lineSpacingExtra="8sp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        tools:text="LOGIN" />
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="154dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_logo"
+        android:transitionName="image" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="297dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginBottom="390dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="15dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="299dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginBottom="324dp"
+        android:background="@drawable/input_field"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/gray" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="299dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="247dp"
+        android:background="@drawable/button"
+        android:text="Login"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/circle1"
+        android:layout_width="431dp"
+        android:layout_height="177dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="-15dp"
+        android:src="@drawable/ic_footer"
+        android:transitionName="image" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="209dp"
+
+        android:text="Belum punya akun ? Daftar Di sini" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginBottom="167dp"
+        android:text="OR"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnLoginGoogle"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="103dp"
+        android:background="#FFFFFF"
+        android:drawableStart="@drawable/ic_logo_google"
+        android:text="@string/Login_with_google" />
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="18dp"
+        android:text="Button"
+        android:visibility="invisible" />
+
+</RelativeLayout>

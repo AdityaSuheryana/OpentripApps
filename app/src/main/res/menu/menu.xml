@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuHome"
+        android:title="Home"
+        android:icon="@drawable/home"
+        />
+    <item
+        android:id="@+id/menuHistory"
+        android:title="history"
+        android:icon="@drawable/history"
+        />
+    <item
+        android:id="@+id/menuTambahTrip"
+        android:title="Tambah trip"
+        android:icon="@drawable/tambah"
+        />
+    <item
+        android:id="@+id/menuProfile"
+        android:title="Profile"
+        android:icon="@drawable/profile"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/sign_out"
+        />
+
+</menu>

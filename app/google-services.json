@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "125019004558",
+    "firebase_url": "https://kemah-a20bb.firebaseio.com",
+    "project_id": "kemah-a20bb",
+    "storage_bucket": "kemah-a20bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125019004558:android:80a52a872d793c0edcb3df",
+        "android_client_info": {
+          "package_name": "e.user.kemah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125019004558-j8cs6fcfa2ol4051pp4e7jusn4hg11j9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.user.kemah",
+            "certificate_hash": "4d3022b5d2e9216e70e2c790d6e8163c9582fc09"
+          }
+        },
+        {
+          "client_id": "125019004558-g3c7i33h0vmtrnjgiel84kgu0j7u8dv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoIBQmbPGJXIv2Sjaj6kPoSWLKK2_UeNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125019004558-g3c7i33h0vmtrnjgiel84kgu0j7u8dv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
